@@ -1,3 +1,7 @@
+/*
+    Every Even Number can be written as sum of 2 primes(minimum)
+    Every Odd Number can be written as sum of 3 primes(Minimum 2)
+*/
 #include <iostream>
 #define IOS ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
 using namespace std;
