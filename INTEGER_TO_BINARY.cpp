@@ -7,8 +7,8 @@ string result(int t){
     string s="";
     while(t!=0){
         p=t&1;      // MAIN CASE                                            1 0 1
-        s+=to_string(p);                                                    0 0 1
-        t=t>>1;                                                      ANS :  0 0 1
+        s+=to_string(p);    ///                                             0 0 1
+        t=t>>1;              //                                      ANS :  0 0 1
     }
     reverse(begin(s),end(s));
     return s;
